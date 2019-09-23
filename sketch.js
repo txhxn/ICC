@@ -4,7 +4,7 @@ var i=0;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  background(19,0,54);
+  background(17,0,46);
   // framerate 5 for one circle per one click
   frameRate(5);
 }
