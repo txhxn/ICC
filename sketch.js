@@ -5,6 +5,7 @@ var N=100;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
+  background(19,0,54);
   frameRate(5);
   cx = new float[N];
   cy = new float[N];
