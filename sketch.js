@@ -1,11 +1,12 @@
+var cx = [];
+var cy = [];
+var i=0;
+
 function setup(){
-  createCanvas(500,500);
+  createCanvas(windowWidth, windowHeight);
   background(19,0,54);
   // framerate 5 for one circle per one click
   frameRate(5);
-  var cx = [];
-  var cy = [];
-  var i=0;
 }
 
 function draw(){  
