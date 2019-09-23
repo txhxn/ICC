@@ -1,18 +1,14 @@
-var cx = [];
-var cy = [];
-var i=0;
-
-
 function setup(){
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(500,500);
   background(19,0,54);
   // framerate 5 for one circle per one click
   frameRate(5);
-  // cx = new float[N];
-  // cy = new float[N];
+  var cx = [];
+  var cy = [];
+  var i=0;
 }
-function draw(){
-  
+
+function draw(){  
   if (mouseIsPressed){
     // draw ellipse on mouseclick
     cx[i] = mouseX;
