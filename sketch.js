@@ -1,7 +1,7 @@
 var cx = [];
 var cy = [];
-var i = 0;
-var N=100;
+var i=0;
+
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
@@ -12,6 +12,7 @@ function setup(){
   // cy = new float[N];
 }
 function draw(){
+  
   if (mouseIsPressed){
     // draw ellipse on mouseclick
     cx[i] = mouseX;
