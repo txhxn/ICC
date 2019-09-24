@@ -4,9 +4,14 @@ var i=0;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  background(17,0,46);
   // framerate 5 for one circle per one click
   frameRate(5);
+  back();
+}
+// for reset function
+function back(){
+  background(17,0,46);
+  i=0;
 }
 
 function draw(){  
@@ -38,4 +43,10 @@ function draw(){
     }
     i++;
 }
-} 
+}
+// if keypressed, reset
+function keyPressed(){
+back()}
+
+
+  
